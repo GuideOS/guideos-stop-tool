@@ -1,0 +1,14 @@
+Source: guideos-stop-tool
+Section: misc
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper (>= 9),bash
+Standards-Version: 0.0.1
+Homepage: https://guideos.de
+
+Package: guideos-stop-tool
+Architecture: all
+Depends: ${misc:Depends}, bash, zenity
+Description: A simple GUI to terminate processes
+ Uses xkill to terminate processes.
+ 

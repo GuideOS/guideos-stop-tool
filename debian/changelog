@@ -1,0 +1,17 @@
+guideos-stop-tool (0.0.3) unstable; urgency=medium
+
+  * Changed Icons
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Sun, 04 May 2025 17:19:09 +0200
+
+guideos-stop-tool (0.0.2) unstable; urgency=medium
+
+  * Fixed: Desktop-File-Name
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Wed, 26 Mar 2025 18:10:17 +0100
+
+guideos-stop-tool (0.0.1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Sun, 21 Mar 2025 01:53:21 +0100

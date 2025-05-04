@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Zeigt eine Infobox an, die den Benutzer informiert
+zenity --info --title="GuideOS-Stop-Tool" --text="Dieses Tool erlaubt dir, ein nicht mehr reagierendes Fenster und/oder Programm durch Anklicken zu schließen. Nach dem Start klicke auf das Fenster, das du beenden möchtest." --width=300
+
+# Starte xkill direkt nach der Bestätigung
+xkill
+
