@@ -5,7 +5,7 @@
 Das **GuideOS Stop-Tool** ist ein Zenity-basiertes Bash-Skript, das die komfortable Beendigung von Programmen durch einfaches Anklicken ermöglicht.  
 Es informiert den Benutzer über die Funktionsweise und startet anschließend `xkill`, um ein nicht mehr reagierendes Fenster oder Programm direkt zu schließen.
 
-- **Autor:** evilware666  
+- **Autor:** evilware666 & Helga
 - **Version:** 1.1  
 - **Letzte Änderung:** 19.12.2025  
 - **Lizenz:** MIT  
