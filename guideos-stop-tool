@@ -1,4 +1,27 @@
 #!/bin/bash
+# ==============================================================================
+# Titel       : GuideOS Stop-Tool
+# Beschreibung: Zenity-basiertes Bash-Skript zum gezielten Beenden von Programmen
+#               durch einfaches Anklicken des entsprechenden Fensters. Ideal für
+#               das Schließen nicht mehr reagierender Anwendungen ohne manuelle
+#               Prozesssuche im Terminal.
+#
+# Autor       : evilware666 & Helga
+# Version     : 1.1
+# Datum       : 29.08.2025
+# Lizenz      : MIT
+# ==============================================================================
+#
+# Hinweis     : - Das Tool nutzt 'xkill', um Prozesse direkt über das Fenster zu
+#                 beenden.
+#               - Nach der Bestätigung öffnet sich ein Fadenkreuz-Cursor, mit dem
+#                 das gewünschte Fenster angeklickt werden kann.
+#               - Vorsicht: Ein falscher Klick beendet sofort das ausgewählte
+#                 Programm.
+#
+# -------------------------------------------------------
+
+
 
 # Zeigt eine Infobox an, die den Benutzer informiert
 zenity --info --title="GuideOS-Stop-Tool" --text="Dieses Tool erlaubt dir, ein nicht mehr reagierendes Fenster und/oder Programm durch Anklicken zu schließen. Nach dem Start klicke auf das Fenster, das du beenden möchtest." --width=300
